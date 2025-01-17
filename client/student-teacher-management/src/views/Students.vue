@@ -70,7 +70,7 @@ export default {
   computed: {
     filteredStudents() {
       return this.$store.state.students.filter((student) =>
-        student.name.toLowerCase().includes(this.searchQuery.toLowerCase()),
+        student?.name?.toLowerCase()?.includes(this.searchQuery.toLowerCase()),
       )
     },
   },
