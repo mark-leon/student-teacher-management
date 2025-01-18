@@ -1,3 +1,15 @@
+To run this app, at first clone this repo, then go to student-teacher-management/server. Then run this script
+#npm install
+#npm run dev
+
+After then
+go to student-teacher-management/client/student-teacher-management. Then run this script
+#npm install
+#npm run dev
+
+
+
+
 School Management System - Frontend Documentation
 Overview
 The frontend for this system has the features including  user authentication, dashboard views, and Create, update, read operations for both students and teachers.
